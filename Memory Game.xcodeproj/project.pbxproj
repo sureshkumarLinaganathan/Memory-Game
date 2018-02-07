@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D57FB30F202AF2240087443C /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D57FB30E202AF2240087443C /* CollectionViewCell.m */; };
 		D59D8F35202AE3AB000B02E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D8F34202AE3AB000B02E8 /* AppDelegate.m */; };
 		D59D8F38202AE3AB000B02E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D8F37202AE3AB000B02E8 /* ViewController.m */; };
 		D59D8F3B202AE3AB000B02E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59D8F39202AE3AB000B02E8 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D57FB30D202AF2240087443C /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		D57FB30E202AF2240087443C /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		D59D8F30202AE3AB000B02E8 /* Memory Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memory Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59D8F33202AE3AB000B02E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D59D8F34202AE3AB000B02E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 				D59D8F36202AE3AB000B02E8 /* ViewController.h */,
 				D59D8F37202AE3AB000B02E8 /* ViewController.m */,
 				D59D8F39202AE3AB000B02E8 /* Main.storyboard */,
+				D57FB30D202AF2240087443C /* CollectionViewCell.h */,
+				D57FB30E202AF2240087443C /* CollectionViewCell.m */,
 				D59D8F3C202AE3AB000B02E8 /* Assets.xcassets */,
 				D59D8F3E202AE3AB000B02E8 /* LaunchScreen.storyboard */,
 				D59D8F41202AE3AB000B02E8 /* Info.plist */,
@@ -102,7 +107,7 @@
 				TargetAttributes = {
 					D59D8F2F202AE3AB000B02E8 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -144,6 +149,7 @@
 			files = (
 				D59D8F38202AE3AB000B02E8 /* ViewController.m in Sources */,
 				D59D8F43202AE3AB000B02E8 /* main.m in Sources */,
+				D57FB30F202AF2240087443C /* CollectionViewCell.m in Sources */,
 				D59D8F35202AE3AB000B02E8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,12 +284,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 35ER5MU285;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Memory Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.impigertech.Memory-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -292,12 +299,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 35ER5MU285;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Memory Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.impigertech.Memory-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
