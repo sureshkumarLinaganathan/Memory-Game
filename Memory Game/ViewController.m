@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "CollectionViewCell.h"
 
-#define MAX_RAND_VALUE 5
+#define MAX_RAND_VALUE 3
 #define NO_OF_ELEMENTS 100
 
 @interface ViewController ()<CollectionViewCellDelegate>
